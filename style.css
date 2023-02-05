@@ -1,0 +1,132 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:rgb(192, 185, 185);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: whitesmoke;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.header img {
+    width: 100px;
+    height: 70px;
+}
+
+.header .menu-utama {
+    margin-top: 3px;
+    list-style: none;
+}
+
+.header .menu-utama li {
+    float: left;
+    padding: 8px 20px;
+    border: 1px solid white;
+}
+
+.header .menu-utama li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .menu-utama li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.header form{
+    margin-left: 50px;
+    float: right;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.header form input{
+    border: none;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.daftar-content{
+    width: 670px;
+    float: left;
+}
+
+.daftar-content #content{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.daftar-content #content img{
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 160px;
+}
+
+.daftar-content #content b{
+    color: black;
+    background-color: grey;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.daftar-content #content p{
+    margin: 10px 0;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.daftar-content #content a{
+    text-align: right;
+    color: rgb(93, 93, 136);
+    display: block;
+}
+
+.sidebar{
+    width: 470px;
+    float: right;
+}
+
+.sidebar h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sidebar p{
+    line-height: 20px;
+    text-align: justify;
+}
+
+.sidebar ul li a{
+    color: rgb(93, 93, 136);
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: wheat;
+    color: black;
+}
